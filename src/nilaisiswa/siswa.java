@@ -18,12 +18,10 @@ int Nilai;
 Scanner input = new Scanner(System.in);
 
 void ingfo(){
-    System.out.println("===== INGFO KELULUSAN ANDA =====");
     System.out.println("Nama anda : ");
     Nama = input.nextLine();
     System.out.println("Kelas anda : ");
     Kelas = input.nextLine();
-    System.out.println("===== TUNGGU SEBENTAR ======");
     
     
 }
