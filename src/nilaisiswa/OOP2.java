@@ -11,19 +11,18 @@ import java.util.Scanner;
  *
  * @author User
  */
-public class kelulusan {
+public class OOP2 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    siswa object = new siswa();
-    
-    object.ingfo();
-    object.Nilai();
-        }
-   
-        
+        System.out.println("DATA KELULUSAN SISWA");
+        System.out.println("===== MOHON TUNGGU =====");
+        siswa keterangan = new siswa();
+        keterangan.biodata();
+        System.out.println("===== TERIMA KASIH =====");
+
     }
-        
+}

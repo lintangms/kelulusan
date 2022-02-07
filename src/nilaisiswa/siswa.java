@@ -12,33 +12,34 @@ import java.util.Scanner;
  * @author User
  */
 public class siswa {
-String Nama, Kelas;
-int Nilai;
-
-Scanner input = new Scanner(System.in);
-
-void ingfo(){
-    System.out.println("Nama anda : ");
-    Nama = input.nextLine();
-    System.out.println("Kelas anda : ");
-    Kelas = input.nextLine();
+    String nama, kelas, NISN;
+    int absen, nilai;
     
-    
+    Scanner input = new Scanner(System.in);
+
+    void biodata() {
+        System.out.print("Masukkan nama : ");
+        nama = input.nextLine();
+        System.out.print("Kelas : ");
+        kelas = input.nextLine();
+        System.out.print("Nomor Absen : ");
+        absen = input.nextInt();
+        System.out.print("Masukan NISN anda : ");
+        NISN = input.next();
+        System.out.print("Masukkan nilai anda : ");
+        nilai = input.nextInt();
+        System.out.println("========================");
+            System.out.println("Nama anda : "+nama);
+            System.out.println("Kelas anda : "+kelas);
+            System.out.println("Nomor absen anda : "+absen);
+            System.out.println("NISN anda : "+NISN);
+            System.out.println("Nilai anda : "+nilai);
+        if (nilai >= 75) {
+            System.out.println("Selamat Anda Lulus");
+        } else {
+            System.out.println("Mohon maaf anda tidak lulus");
+            
+            
+        }}
+
 }
-void Nilai(){
-    System.out.println("Masukan nilai anda : ");
-    Nilai = input.nextInt();
-    
-    if (Nilai >= 80){
-        System.out.println("Selamat anda lulus");
-        System.out.println("Ibumu pasti bangga");
-    }
-    else{
-        System.out.println("Kok nilainya kurang bang?");
-    }
-}
-    
-    }
-
-
-    
